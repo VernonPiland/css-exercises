@@ -8,7 +8,9 @@ div{
 p{
     color: white;
     background-color: green;
+    font-size: 32px;
 }
 button{
     background-color: orange;
+    font-size: 32px;
 }
