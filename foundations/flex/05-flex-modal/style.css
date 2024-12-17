@@ -73,4 +73,10 @@ button.cancel {
 }
 .header{
   font-weight: bold;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+.text{
+  margin-bottom: 16px;
 }
