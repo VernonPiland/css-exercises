@@ -27,6 +27,7 @@ input {
 .header{
   display: flex;
   justify-content: space-between;
+  padding: 32px;
 }
 
 ul{
@@ -41,6 +42,7 @@ a{
   background-color: #eeeeee;
   display: flex;
   justify-content: space-between;
+  padding: 32px;
 }
 
 .left-links, .right-links{
