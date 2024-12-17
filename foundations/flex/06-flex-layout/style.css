@@ -38,6 +38,13 @@ a{
 }
 
 .footer{
+  background-color: #eeeeee;
   display: flex;
   justify-content: space-between;
+}
+
+.left-links, .right-links{
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
