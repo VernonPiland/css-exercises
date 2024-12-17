@@ -50,3 +50,8 @@ a{
   align-items: center;
   gap: 16px;
 }
+.content{
+  display: flex;
+  justify-content: center;
+
+}
