@@ -5,6 +5,8 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 img {
@@ -16,6 +18,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px 16px;
 }
 
 input {
@@ -35,6 +38,7 @@ ul{
 }
 
 a{
+  color: #666;
   text-decoration: none;
 }
 
@@ -51,7 +55,11 @@ a{
   gap: 16px;
 }
 .content{
+  flex: 1;
   display: flex;
+  align-items: center;
   justify-content: center;
+  flex-direction: column;
+  gap: 16px;
 
 }
